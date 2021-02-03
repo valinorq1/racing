@@ -1,0 +1,54 @@
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'css/main.css' %}">
+	<link rel="icon" href="{% static 'img/icon.png' %}" type="image/x-icon" />
+	<title>Супер гонки</title>
+</head>
+<body >
+	<div class="start-container">
+		<!--  header -->
+		<div class="play_now">
+				<div class="play_btn">
+					<div class="play"><img src="{% static 'img/play_now.gif' %}" alt=""></div>
+				</div>
+		</div>
+
+		<!-- /header -->
+
+		<div class="auth-block">
+			<div class="auth-type"><b>Зайти через:</b></div>
+			<div class="auth-type"><img src="{% static 'img/auth/ok1.png' %}" alt=""></div>
+			<div class="auth-type"><img src="{% static 'img/auth/vk.png' %}" alt=""></div>
+			<div class="auth-type"><img src="{% static 'img/auth/mm.png' %}" alt=""></div>
+			<div class="auth-type"><img src="{% static 'img/auth/fb.png' %}" alt=""></div>
+		</div>
+
+		<div class="about">
+			<div class="special "><p class="yl semi-bold" style="text-align:center;">Акция: зарегистрируйся через Одноклассники и получи 10 баксов.</p></div>
+			<div class="info-large"><h2>В игре есть возможность совершать покупки за деньги.</h2></div>
+			<div class="about">
+				<p>Добро пожаловать в игру «Супер гонки»! Покупай самые современные автомобили и принимай участие в уличных гонках.</p>
+				<p>На первом уровне тебе будут доступны гонки с друзьями или другими незнакомыми гонщиками. Повышай свой уровень и тебе будут открываться новые возможности по улучшению своего авто!</p>
+			</div>
+
+			<div class="about-preview">
+				<div><img src="{% static 'img/sk02.jpg' %}" alt=""></div>
+				<div><img src="{% static 'img/sk06.jpg' %}" alt=""></div>
+				<div><img src="{% static 'img/sk03.jpg' %}" alt=""></div>
+			</div>
+			
+			<div class="credits">
+				<a href="">Privacy policy</a>
+			<a href="">© Super race 2011-2021</a>
+			</div>
+			
+		</div>
+
+
+
+	</div>
+</body>
+</html>
